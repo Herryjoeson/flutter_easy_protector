@@ -1,6 +1,6 @@
 name: flutter_easy_protector
 description: One line of code detects XP framework/debugging/multi-open/simulator/root permission in flutter
-version: 1.0.0
+version: 1.0.0+1
 homepage: https://github.com/Herryjoeson/flutter_easy_protector.git
 
 environment:
