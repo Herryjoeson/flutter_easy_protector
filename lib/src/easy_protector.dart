@@ -27,7 +27,7 @@ class FlutterEasyProtector {
   static Future<bool> get checkXposedExistAndDisableIt async {
     final bool isExposedFramework = await checkIsXposedExist;
     if (isExposedFramework) {
-      return await _channel.invokeMethod("checkIsXposedExist");
+      return await _channel.invokeMethod("checkXposedExistAndDisableIt");
     }
     return false;
   }
